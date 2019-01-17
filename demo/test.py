@@ -33,10 +33,10 @@ print((1 in list1))
 for x in list3:
     print(x)
 
-list4 = [1,2,3,4,5,6]
-print('长度：' , len(list4))
-print('最大值：' , max(list4))
-list4.insert(0,'123')
+list4 = [1, 2, 3, 4, 5, 6]
+print('长度：', len(list4))
+print('最大值：', max(list4))
+list4.insert(0, '123')
 print(list4)
 list4.pop()
 print(list4)
